@@ -1,0 +1,104 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&display=swap');
+
+
+$dark : black;
+$secondary:#F2F2F2;
+$font-family-sans-serif :Poppins;
+$input-btn-padding-y-lg :1.5rem;
+$input-btn-padding-x-lg :2rem;
+$navbar-nav-link-padding-x: 2.2rem;
+$nav-link-font-size:1.2rem;
+$navbar-brand-font-size:2rem;
+$nav-pills-link-active-bg:#ffff;
+$nav-pills-link-active-color:$dark;
+
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 9,
+  
+);
+
+
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "../node_modules/boxicons/css/boxicons.min.css";
+@import "../node_modules/animate.css/animate.min.css";
+
+#home {
+    padding: 0;
+}
+.logo {
+     height: 50px;
+}
+
+
+.bg-img {
+    width: 400px;
+    height: 400px;
+    
+
+}
+.img-home {
+    width: 120%;
+    transform: rotate(330deg) translate(-75px, 16px);
+    
+}
+
+.product-img {
+    transform: rotate(-30deg) ;
+    filter: drop-shadow(1px 0px 2px);
+}
+.m- {
+    margin-top: -20px;
+}
+.text-vertical {
+    transform: rotate(-90deg);
+   width: 5rem;
+}
+.w-10 {
+    border: 2px solid black;
+    
+    max-width: 100px;
+}
+
+.collection-card {
+    height: 450px;
+}
+
+.offert {
+    height: 400px;
+}
+.input-control {
+    
+    outline: none;
+    border: none;
+}
+.input-container {
+    height: 100px;
+}
+
+
+.logo:hover,.nav-link:hover,.card:hover {
+    animation: pulse 0.5s;
+}
+
+.card a:active {
+    animation: shakeX 1s;
+}
+
+.bg-img:hover {
+    animation: tada 1s;
+}
+
+.btn-dark:active{
+    animation: bounceOutUp 1s;
+}
